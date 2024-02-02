@@ -1,10 +1,11 @@
-import logo from './logo.svg';
 import './App.css';
-
+import Upsite from "./Components/Upsite";
+import Header from "./Components/Header";
 function App() {
   return (
       <div>
-            <Header/>
+          <Upsite/>
+          <Header/>
       </div>
 )}
 
